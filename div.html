@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Resume
+        </title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <script  type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        
+    </head>
+    <body>
+        <div id="resume"> 
+            <div class="intro">
+                <h1>Vipanjot Kaur</h1>
+                <p>I would like to enhance my<br> technical knowledge and soft skills<br> by taking up chalanging assignments.</p>
+            
+            
+            </div>
+            <div class="image">
+                <img src="mypic2.jpg">
+                </div>
+                <div class="info">
+                    
+                <span class="text"> Malerkotla(148023),Punjab</span><br>
+                <span class="text">7710693228</span><br>
+                <a id="mail" href="https://www.google.com/url? =t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj46tWujbD9AhUdm9gFHVfuDtIQFnoECAsQAQ&url=https%3A%2F%2Fmail.google.com%2Fmail%2F&usg=AOvVaw1LdBdmrwYVrMn4NzKd8iI_">vipanjotkaur71@gmail.com</a><br>
+                <a id="mail" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwia6JiijrD9AhVkUnwKHYGcDAMQFnoECAoQAQ&url=https%3A%2F%2Fin.linkedin.com%2F&usg=AOvVaw1HyOXdC-jXyHRjrwaB7Mnw">https://www.linkedin.com/in/Vipanjot-kaur</a>
+            </div> 
+            <hr>
+            <h2 id="edu">Education:</h2>
+            <table border="0px" width="80%" height="70%">
+            <tr>
+                <th><h3>Course</h3></th>
+                <th><h3>College</h3></th>
+                <th><h3>Passing Year</h3></th>
+                <th><h3>Percentage</h3></th>
+            </tr>
+            <tr>
+                <td>BTech (CSE)</td>
+                <td>Baba Banda Singh Bahadur Engineering College,FGS</td>
+                <td id="per">2020-2023</td>
+                <td>84%</td>
+    
+        </tr>
+        <tr>
+            <td>Diploma (CSE)</td>
+            <td>Baba Banda Singh Bahadur Polytechnic College,FGS</td>
+            <td id="per">2017-2020</td>
+            <td>74%</td>
+        </tr>
+        <tr>
+            <td>12th(Medical)</td>
+            <td>Guru HarKrishan Public School ,Phallewal Khurd</td>
+            <td id="per">2016-2017</td>
+            <td>71%</td>
+    
+    </tr>
+    
+    
+            </table>
+            <hr>
+            <h2 id="sk">Skills:</h2>
+            <ul class="Skills:">
+                <li><span class="text">HTML</span></li>
+                <li>CSS</li>
+                <li>C++</li>
+                <li>PHP</li>
+            </ul>
+            <hr>
+            <h2 id="language">Language:</h2>
+            <ul class="Language:">
+                <li>
+                    <span class="text">English</span>
+                    <span class="percent">
+                        <div style="width:70%;"></div>
+                    </span>
+            </li>          
+            <li>
+                <span class="text">Punjabi</span>
+                <span class="percent">
+                    <div style="width: 90%;"></div>
+                </span>
+        </li>
+        <li>
+            <span class="text">hindi</span>
+            <span class="percent">
+                <div style="width:80%;"></div>
+            </span>
+            </li>
+        </ul>
+            
+            <hr>
+            <h2 id="Int">Interest</h2>
+            <ul class="interest">
+                <li><span class="icon"><ion-icon name="book-outline"></ion-icon></span id="r">&nbsp; &nbsp; Reading</li>
+                <li><span class="icon"><ion-icon name="musical-notes-outline"></ion-icon></span id="r">&nbsp;&nbsp; Music</li>
+            <li><span class="icon"><ion-icon name="game-controller-outline"></ion-icon></span id="r">&nbsp; &nbsp; Gaming</li>
+        </ul>
+    </div>
+    <style>
+        body
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+    img
+{
+    border-radius: 50%;
+    width:140px;
+    height:140px;
+    display: block;
+    margin-left: 500px;
+    margin-right: 600px;
+    margin-top: -140px;
+    
+    }
+    .intro
+    {
+padding-left: 100px;
+margin-top:50px;
+    }
+    .info .icon
+    {
+    position: relative;
+    padding-right:100px;
+    margin-bottom: 50px;
+    }
+    body
+    {
+border: 100px;
+    }
+    table
+    {
+    margin-left: 200px;
+    margin-right: 100px;
+    text-align:center;
+    }
+    li{
+        margin-left: 200px;
+        margin-right: 100px;
+    }
+    h2{
+        margin-left: 200px;
+        margin-left: 100px;
+    }
+    .Language li
+    {
+        flex-direction: column;
+
+    }
+    .Language li span
+    {
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .info .Language .percent
+{
+    position: relative;
+    width: 100%;
+    background: red;
+    background-color:grey;
+    height: 6px;
+    margin-top:15px ;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+.Language .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: blue;
+}
+.intro .info ul.interest 
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+}
+.intro .info ul.interest li
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.intro.info ul.interest li .icon
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    color: blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.intro.info ul.interest li .icon ion-icon
+{
+    color: rgb(135, 150, 163);
+    margin-right: 0;
+
+}
+#per
+{
+color: blue;
+}
+#edu
+{
+    border-left: 4px solid blue;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+
+}
+#language
+{
+    border-left: 4px solid blue;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+#sk
+{
+    border-left: 4px solid blue;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+#Int
+{
+    border-left: 4px solid blue;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+#r{
+    margin-left: v20px;
+}
+#resume
+    {
+        border: 5px solid black;
+        border-width: medium ;
+        border-style: solid;
+        width: 80%;
+        height: fit-content;
+        background-color: cadetblue;
+    }
+    #mail
+    {
+        margin-left: 120px;
+        padding-right:120px;
+    }
+    
+    
+    
+    
+    </style>
+</html>
+
+
